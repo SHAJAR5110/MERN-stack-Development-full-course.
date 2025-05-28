@@ -91,7 +91,7 @@ This repository includes:
    ```bash
    git clone https://github.com/SHAJAR5110/MERN-stack-Development-full-course..git
    cd MERN stack dev
-````
+   ```
 
 2. Follow module folders and complete assignments
 
