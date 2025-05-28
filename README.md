@@ -46,24 +46,29 @@ This repository includes:
 - Branching, merging, conflict resolution
 - Hosting projects on GitHub
 
-### 8. 📦 Bootstrap & CSS Frameworks
-- Using Bootstrap for UI components
+### 8. React
+- React props  
+- Hooks
+- redux tool kit
+
+### 9. 📦 Bootstrap & CSS Frameworks
+- Using Bootstrap & Tailwind CSS for UI components
 - Grid system, utility classes
 
-### 9. 🧠 Backend Development Basics
+### 10. 🧠 Backend Development Basics
 - Servers, databases, and APIs
 - Node.js basics, Express.js for REST APIs
 - CRUD operations (Create, Read, Update, Delete)
 
-### 10. 🗃️ Database Fundamentals
+### 11. 🗃️ Database Fundamentals
 - SQL vs NoSQL
 - MongoDB basics and connection with Node.js
 
-### 11. 🏗️ Project Building
+### 12. 🏗️ Project Building
 - Hands-on projects (portfolio site, to-do app, blog)
 - Folder structure & best practices
 
-### 12. 🚀 Deployment
+### 13. 🚀 Deployment
 - Hosting (Netlify, Vercel, GitHub Pages)
 - Connecting backend (Render, Railway)
 - Custom domain & SSL setup
