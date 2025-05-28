@@ -12,7 +12,7 @@ Billions of interconnected devices
 
 Uses TCP/IP protocols for communication
 
-2. 🕰️ Brief History of the Internet
+## 🕰️ Brief History of the Internet
 
 Understanding the past helps us appreciate today’s technology.
 
@@ -26,7 +26,7 @@ Understanding the past helps us appreciate today’s technology.
 
 Today: Over 5 billion users connected globally with web, cloud computing, IoT, and more.
 
-3. 🖥️ Client-Server Model
+## 🖥️ Client-Server Model
 
 The Client-Server architecture is the backbone of internet communication.
 
@@ -38,7 +38,7 @@ Examples: Web browsers, email clients, FTP clients, mobile apps.
 
 This model is request-response based, where clients ask for data, and servers respond with the requested resources.
 
-4. 🧱 Protocol Stack and Packets
+## 🧱 Protocol Stack and Packets
 
 Data sent across the internet is handled by the TCP/IP Protocol Stack, consisting of layers:
 
@@ -58,7 +58,7 @@ Packet number (sequence)
 
 Error-checking bits
 
-5. 📦 How a Packet Travels
+## 📦 How a Packet Travels
 
 When you send a message or request online:
 
@@ -72,7 +72,7 @@ They are reassembled at the destination.
 
 This process is called packet switching and allows efficient, resilient data transfer.
 
-6. 🧭 Routers and Routing Tables
+## 🧭 Routers and Routing Tables
 
 Routers are network devices that direct packets toward their destination using routing tables.
 
@@ -88,7 +88,7 @@ Routing protocols (e.g., OSPF, BGP)
 
 Routers ensure packets move closer to their destination with each hop.
 
-7. 🌍 Real-world Example: Accessing www.google.com
+## 🌍 Real-world Example: Accessing www.google.com
 
 Let’s see what happens when you type www.google.com in your browser:
 
@@ -104,7 +104,7 @@ Rendering: Browser renders the web page on your screen.
 
 Each step involves multiple protocols, devices, and routing decisions.
 
-8. 📡 Common Internet Protocols
+## 📡 Common Internet Protocols
 
 Protocols define the rules for communication between devices. Key Internet protocols include:
 

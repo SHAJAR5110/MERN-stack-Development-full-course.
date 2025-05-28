@@ -55,7 +55,7 @@ A **static website** is built using HTML, CSS, and minimal JavaScript. The conte
 <!-- index.html -->
 <h1>Welcome to My Portfolio</h1>
 <p>This is a static webpage with no backend logic.</p>
-````
+```
 
 #### 🔹 Tools & Technologies:
 
@@ -213,6 +213,5 @@ Developer skilled in both frontend and backend.
 
 Want to improve this guide? Fork the repo, make changes, and submit a pull request!
 
-```
 
 
