@@ -1,0 +1,3 @@
+What is Router, Switches , Hub and Modem ? And why we need them to communicate?
+What is IP Address?
+Difference between the IPv4 and IPv6?
