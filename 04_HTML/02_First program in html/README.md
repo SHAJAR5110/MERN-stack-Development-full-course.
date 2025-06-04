@@ -1,21 +1,66 @@
 # 🧪 First HTML Program: "Hello, World!"
 
-🔹 What are HTML Tags?
+## 🔹 What are HTML Tags?
 HTML (HyperText Markup Language) uses tags to structure web content. Tags are keywords enclosed in angle brackets like < >.
-```example
+**Example**
+```
 <p>This is a paragraph</p>
 ```
 
-🔹 What are Opening and Closing Tags?
+## 🔹 What are Opening and Closing Tags?
 Opening tag: <tagname>
 
 Closing tag: </tagname>
+**Example**
+```
+<h1>Hello</h1>
 
-🔹 What is <!DOCTYPE html>?
+```
+
+
+## 🔹 What is <!DOCTYPE html>?
 <!DOCTYPE html> tells the browser that this file is written in HTML5.
 It should always be the first line of an HTML file.
+**Example**
+```
+<!DOCTYPE html>
+<html>
+  ...
+</html>
 
+```
 
+## 🔹 What is a <meta> tag?
+The <meta> tag provides metadata (data about the page) to browsers and search engines.
+It is written inside the <head> section.
+**Example**
+```
+<meta charset="UTF-8">
+<meta name="description" content="This is my personal website.">
+
+```
+
+## 🔹 Where does the <title> tag appear?
+The <title> tag sets the name of the browser tab. It is written inside the <head> tag.
+**Example**
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive scaling -->
+    <title>title</title> <!-- Page title in browser tab -->
+</head>
+<body>
+    <!-- Your visible content goes here -->
+</body>
+</html>
+
+```
+
+## 🔹 Can we write outside the <body> tag?
+❌ No, all visible content (like text, images, buttons, etc.) must be written inside the <body> tag.
+Only metadata (like title, meta tags, etc.) is written inside <head>.
 
 
 
