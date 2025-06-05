@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Complex Table Example</title>
+</head>
+<body>
+
+  <h2>Student Exam Results</h2>
+  <p>This table shows exam results for students across different subjects, using rowspan and colspan to organize the data.</p>
+
+  <table border="1" cellpadding="10" cellspacing="0">
+    <!-- Table Header Row 1 -->
+    <tr>
+      <th rowspan="2">Student Name</th>         <!-- One cell for name spans 2 rows -->
+      <th colspan="3">Subjects</th>             <!-- One cell spans across 3 subject columns -->
+      <th rowspan="2">Total Marks</th>          <!-- One cell for total spans 2 rows -->
+    </tr>
+
+    <!-- Table Header Row 2 -->
+    <tr>
+      <th>Math</th>
+      <th>Science</th>
+      <th>English</th>
+    </tr>
+
+    <!-- Student Row 1 -->
+    <tr>
+      <td>Shajar</td>                              <!-- Student name -->
+      <td>85</td>                               <!-- Math -->
+      <td>90</td>                               <!-- Science -->
+      <td>88</td>                               <!-- English -->
+      <td>263</td>                              <!-- Total -->
+    </tr>
+
+    <!-- Student Row 2 -->
+    <tr>
+      <td>Abbas</td>
+      <td>92</td>
+      <td>87</td>
+      <td>91</td>
+      <td>270</td>
+    </tr>
+
+    <!-- Student Row 3 with merged Science and English -->
+    <tr>
+      <td>Hasnat</td>
+      <td>78</td>
+      <td colspan="2">Absent</td>               <!-- Science and English merged -->
+      <td>78</td>
+    </tr>
+
+    <!-- Final Summary Row -->
+    <tr>
+      <td colspan="4" align="right"><strong>Average Marks</strong></td>
+      <td>203.6</td>                            <!-- Dummy average -->
+    </tr>
+  </table>
+
+</body>
+</html>
