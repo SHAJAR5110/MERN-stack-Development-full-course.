@@ -1,0 +1,18 @@
+Emmet
+
+! + Tab → Generates boilerplate HTML
+ul>li*3 → Makes a list with 3 items
+div.container>h2.title+p.description → Creates nested div with heading and paragraph
+
+
+OUTPUT:
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
+<div class="container">
+  <h2 class="title"></h2>
+  <p class="description"></p>
+</div>

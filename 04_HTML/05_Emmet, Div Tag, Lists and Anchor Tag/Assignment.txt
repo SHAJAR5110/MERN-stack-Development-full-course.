@@ -1,0 +1,27 @@
+Instructions: Write your answers in a new HTML file named assignment.html.
+
+1. Create a simple HTML page with a heading and a paragraph.
+
+2. Use Emmet to create:
+
+A div with a class wrapper that contains an h2 and two paragraphs.
+
+An unordered list with 5 list items.
+
+3. Show one example each of:
+
+Block element
+
+Inline element
+
+4. Create a nested list showing "Subjects > Topics".
+
+5. Add 3 anchor tags:
+
+One linking to Google (open in new tab)
+
+One email link
+
+One internal page link (#top)
+
+6. Group all elements using divs for layout.
