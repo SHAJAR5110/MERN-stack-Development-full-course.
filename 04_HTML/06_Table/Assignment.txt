@@ -1,0 +1,13 @@
+Homework
+1. Create an HTML page and build a table that shows student information:
+
+Columns: Name, Class, Roll Number, Section
+
+At least 3 student entries
+
+2. Create another table with rowspan and colspan to group marks or attendance.
+
+3. Add a heading (<h2>) and a short paragraph before the table explaining what the table shows.
+
+4. Add borders, cell spacing, and alignments for better readability.
+
