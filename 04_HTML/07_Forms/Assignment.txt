@@ -1,0 +1,18 @@
+Homework / Assignment
+1. Create a registration form with the following:
+
+Name, Email, Password fields
+
+Gender (radio)
+
+Interests (checkboxes)
+
+Country (dropdown)
+
+Message (textarea)
+
+Submit button
+
+2. Add proper labels for all inputs.
+
+3. Use different input types (text, email, password, radio, checkbox, submit).
