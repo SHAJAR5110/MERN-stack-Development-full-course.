@@ -31,8 +31,9 @@ We explored various input types like `text`, `email`, `password`, `checkbox`, `r
 We practiced combining all form elements into a basic "Register" form. This helped reinforce how to structure and group inputs correctly with labels and layout.
 
 
-## 🔹 5. Form Elements
+## 🔹 Form Elements
 Common elements inside a form include:
+```
 Text inputs
 Password fields
 Radio buttons
@@ -40,8 +41,10 @@ Checkboxes
 Dropdowns
 Submit/reset buttons
 Textareas
+```
 
-## 🔹 6. Input Types
+## 🔹 Input Types
+```
 <input type="text">
 <input type="email">
 <input type="password">
@@ -50,5 +53,5 @@ Textareas
 <input type="submit">
 <input type="date">
 <input type="file">
-
+```
 
