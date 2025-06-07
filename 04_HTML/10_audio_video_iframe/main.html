@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Video and iframe</title>
+</head>
+<body>
+
+  <!-- ✅ AUDIO EXAMPLES -->
+  <!-- Example 1: Audio with controls only -->
+  <h2>Audio Example 1: Basic Controls</h2>
+  <audio src="audio1.mp3" controls>
+    <!-- Fallback for browsers that don’t support audio -->
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Example 2: Autoplay and loop audio -->
+  <h2>Audio Example 2: Autoplay + Loop</h2>
+  <audio src="audio2.mp3" autoplay loop controls muted>
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Example 3: Preload attribute set to "none" -->
+  <h2>Audio Example 3: Preload None</h2>
+  <audio src="audio3.mp3" controls preload="none">
+    Your browser does not support the audio element.
+  </audio>
+
+  <hr>
+
+  <!-- ✅ VIDEO EXAMPLES -->
+  <!-- Example 1: Video with controls only -->
+  <h2>Video Example 1: Basic Controls</h2>
+  <video src="video1.mp4" width="320" height="240" controls>
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Example 2: Video with autoplay and muted -->
+  <h2>Video Example 2: Autoplay + Muted</h2>
+  <video src="video2.mp4" width="320" height="240" autoplay muted controls>
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Example 3: Video with poster image -->
+  <h2>Video Example 3: Poster + Loop</h2>
+  <video src="video3.mp4" width="320" height="240" controls loop poster="poster.jpg">
+    Your browser does not support the video tag.
+  </video>
+
+  <hr>
+
+  <!-- ✅ IFRAME EXAMPLES -->
+  <!-- Example 1: Embedding YouTube Video -->
+  <h2>Iframe Example 1: YouTube Video</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          title="YouTube video" frameborder="0" allowfullscreen>
+  </iframe>
+
+  <!-- Example 2: Embedding Google Maps -->
+  <h2>Iframe Example 2: Google Maps</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18..." 
+          width="600" height="450" style="border:0;" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <!-- Example 3: Embedding another website with sandbox -->
+  <h2>Iframe Example 3: Website with Sandbox</h2>
+  <iframe src="https://example.com" width="600" height="400" sandbox>
+    Your browser does not support iframes.
+  </iframe>
+
+</body>
+</html>

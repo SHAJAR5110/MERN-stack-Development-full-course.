@@ -1,0 +1,1 @@
+What is loading lazy attribute in img and iframe tags? And why we use them.
