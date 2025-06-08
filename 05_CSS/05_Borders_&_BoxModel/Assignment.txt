@@ -1,0 +1,63 @@
+CSS Assignment – Box Model & Borders
+=====================================
+
+Objective:
+----------
+Learn and practice how CSS box model properties like margin, padding, border, width, and height affect the layout of elements on a webpage.
+
+Instructions:
+-------------
+1. Create a new HTML file named: index.html
+2. Create a new CSS file named: style.css
+3. Link the CSS file in the HTML head:
+   <link rel="stylesheet" href="style.css">
+
+Tasks:
+------
+
+Task 1: Basic Box with Border
+-----------------------------
+- Content: "This is a basic box"
+- CSS Properties:
+  width: 300px;
+  height: 100px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 20px;
+
+Task 2: Colored Border Box
+--------------------------
+- Content: "This box has a colored border"
+- CSS Properties:
+  width: 250px;
+  height: 120px;
+  border: 4px dashed red;
+  padding: 15px;
+  margin: 30px;
+
+Task 3: Different Padding & Margin
+----------------------------------
+- Content: "Different padding and margin on all sides"
+- CSS Properties:
+  padding: 20px 10px 30px 5px;    (Top Right Bottom Left)
+  margin: 40px 0 10px 20px;
+  border: 3px dotted green;
+  background-color: #f0f0f0;
+
+Task 4: Box Model Summary Box
+-----------------------------
+- Content: "Content > Padding > Border > Margin"
+- CSS Properties:
+  width: 350px;
+  padding: 25px;
+  border: 5px double blue;
+  margin: 50px;
+  background-color: #e0f7fa;
+
+
+Bonus Task (Optional):
+----------------------
+- Add a hover effect to any one of the boxes to change:
+  - Border color
+  - Background color
+
