@@ -1,0 +1,109 @@
+ .border-box {
+            border: 3px solid #4CAF50;
+            padding: 20px;
+            width: 350px;
+            margin: 40px auto;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .border-box h1 {
+            margin-top: 0;
+            color: #333;
+        }
+        .border-box p {
+            color: #555;
+        }
+/* ------------------------For Box Model---------------------------         */
+
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Box Style */
+.example {
+  border: 2px solid #333;
+  padding: 20px;
+  margin: 20px 0;
+  background: #f9f9f9;
+}
+
+/* Custom Examples */
+.example1 .content {
+  background: orange;
+  padding: 5px;
+}
+
+.example1 .padding {
+  background: blue;
+  color: white;
+  padding: 5px;
+}
+
+.example1 .border-box {
+  border: 2px dashed green;
+  padding: 5px;
+}
+
+/* Example 2 */
+.example2 {
+  border: 4px dashed red;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Example 3 */
+.example3 {
+  border: 2px solid #555;
+  padding: 30px;
+  background: #e0f7fa;
+}
+
+/* Example 4 */
+.example4 {
+  border: 2px solid #222;
+  padding: 10px;
+  margin: 40px 0 10px 40px;
+  background: #fffde7;
+}
+
+/* Example 5 */
+.example5 {
+  border: 2px solid #00897b;
+  padding: 10px 30px;
+  background: #e0f2f1;
+}
+
+/* Summary Paragraph */
+.summary {
+  font-size: 1.1em;
+  margin-top: 30px;
+}
+
+/* Color Classes */
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+.purple {
+  color: purple;
+}
+
+.teal {
+  color: #00897b;
+}
