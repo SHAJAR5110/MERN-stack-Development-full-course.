@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries Examples</title>
+    <style>
+        /* Example 1: Change background color on small screens */
+        body {
+            background: #ca8282;
+            transition: background 0.3s;
+        }
+        @media (max-width: 600px) {
+            body {
+                background: #3183b3;
+            }
+        }
+
+        /* Example 2: Hide sidebar on tablets and smaller */
+        .sidebar {
+            width: 200px;
+            background: #de19b3;
+            color: #fff;
+            padding: 20px;
+            float: left;
+        }
+        @media (max-width: 900px) {
+            .sidebar {
+                display: none;
+            }
+        }
+
+        /* Example 3: Change font size on large screens */
+        .content {
+            font-size: 16px;
+            margin-left: 220px;
+            padding: 20px;
+        }
+        @media (min-width: 1200px) {
+            .content {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        Sidebar (hidden on screens ≤ 900px)
+    </div>
+    <div class="content">
+        <h1>Media Queries Examples</h1>
+        <ol>
+            <li>Background color changes on screens ≤ 600px.</li>
+            <li>Sidebar is hidden on screens ≤ 900px.</li>
+            <li>Font size increases on screens ≥ 1200px.</li>
+        </ol>
+        <p>Resize the browser window to see the effects.</p>
+    </div>
+</body>
+</html>
