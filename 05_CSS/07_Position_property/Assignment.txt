@@ -1,0 +1,22 @@
+Assignment: CSS Position Property
+
+Instructions:
+Answer the following questions and complete the tasks related to the CSS position property.
+
+1. What are the different values of the CSS position property? Briefly explain each.
+
+2. What is the default value of the position property for HTML elements?
+
+3. Describe the difference between relative and absolute positioning.
+
+4. What does the fixed position do? Give an example use case.
+
+5. What is the effect of the sticky position? How is it different from fixed?
+
+6. Task:
+    a) Create a simple HTML structure with three boxes.
+    b) Apply different position values (static, relative, absolute, fixed, sticky) to each box using CSS.
+    c) Write the CSS code and explain the result for each box.
+
+7. Bonus:
+    How does the z-index property work with positioned elements?

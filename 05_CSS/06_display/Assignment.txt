@@ -1,0 +1,62 @@
+==============================
+CSS DISPLAY PROPERTY ASSIGNMENT
+==============================
+
+📚 Objective:
+Practice the usage of the display property in CSS including:
+- display: block
+- display: inline
+- display: inline-block
+- box-sizing: border-box
+
+-----------------------------
+📝 TASKS TO COMPLETE:
+-----------------------------
+
+✅ Task 1: Block Elements
+- Create three <div> elements.
+- Assign each a different background color.
+- Use `display: block` (default).
+- Add margin and padding.
+- Set a fixed width and height.
+
+✅ Task 2: Inline Elements
+- Create three <span> elements inside a <p>.
+- Use `display: inline` (default).
+- Give different background colors to each.
+- Apply left and right margin.
+- Observe how height and width behave.
+
+✅ Task 3: Inline-Block Boxes
+- Create three buttons or divs with `display: inline-block`.
+- Give each fixed width and height.
+- Add margin and padding.
+- Try aligning them horizontally.
+
+✅ Task 4: Box Sizing
+- Create a <div> with:
+  - `width: 300px`
+  - `padding: 20px`
+  - `border: 5px solid`
+- Without using `box-sizing`, check the total size in browser.
+- Now apply `box-sizing: border-box` and see the difference.
+
+✅ Task 5: Mix All
+- Create a layout where:
+  - One block-level banner
+  - One inline-block horizontal navigation
+  - Some inline elements like links or tags in a paragraph
+
+-----------------------------
+🧪 BONUS TASK:
+-----------------------------
+- Try placing block elements inside inline elements. Observe the browser behavior.
+- Create a responsive card layout using `display: inline-block` and `box-sizing: border-box`.
+
+-----------------------------
+✅ LEARNING OUTCOME:
+-----------------------------
+By the end of this assignment, you should be able to:
+- Differentiate between block, inline, and inline-block elements.
+- Understand how box-sizing affects element layout.
+- Build basic page layouts using different display types.
