@@ -1,0 +1,90 @@
+    /* -- Easy Example 1: Simple Row Layout  */
+   
+   .easy-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        .easy-row div {
+            background: #90caf9;
+            padding: 20px;
+            border-radius: 5px;
+            flex: 1;
+            text-align: center;
+        }
+
+
+         /* -- Easy Example 2: Centering Content -- */
+    
+        .easy-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120px;
+            background: #ffe082;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .easy-center span {
+            font-size: 1.2em;
+            font-weight: bold;
+        }   
+
+        /* -- Difficult Example 1: Responsive Navigation Bar -- */
+  
+        .difficult-navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #a5d6a7;
+            padding: 15px 30px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        .difficult-navbar .logo {
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        .difficult-navbar .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .difficult-navbar .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        @media (max-width: 600px) {
+            .difficult-navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .difficult-navbar .nav-links {
+                margin-top: 10px;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+ /* -- Difficult Example 2: Flexbox Card Grid with Different Heights -- */
+  
+        .difficult-grid {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .difficult-grid .card {
+            background: #f8bbd0;
+            border-radius: 8px;
+            padding: 20px;
+            flex: 1 1 200px;
+            min-width: 200px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        .difficult-grid .card h4 {
+            margin: 0 0 10px 0;
+        }

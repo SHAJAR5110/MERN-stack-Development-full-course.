@@ -1,0 +1,23 @@
+1. Create a flex container with three items and arrange them horizontally with equal spacing between them.
+
+2. How do you align flex items to the bottom of the container using Flexbox?
+
+3. Write CSS to make the second item in a flex container grow twice as much as the others.
+
+4. How can you reverse the order of flex items in a row using Flexbox?
+
+5. Create a flex container where items wrap onto multiple lines when there isn't enough space.
+
+6. How do you center a single flex item both vertically and horizontally inside its container?
+
+7. Write CSS to make all flex items have the same width, regardless of their content.
+
+8. How do you align the last item in a flex container to the right edge while keeping the others to the left?
+
+9. Create a responsive navigation bar using Flexbox that stacks vertically on small screens.
+
+10. How can you change the direction of flex items from row to column using Flexbox?
+------------------------
+Difficult one
+------------------------
+11. How can you create a flex container where the first and last items are fixed width, but the middle item expands to fill the remaining space?

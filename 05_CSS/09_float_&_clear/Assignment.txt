@@ -1,0 +1,19 @@
+Assignment: CSS Float and Clear
+
+
+1. What problems can occur when using float for layout? Give at least two examples.
+
+2. Given the following HTML, write CSS to float the image to the right and ensure the paragraph text wraps around it:
+
+    <div>
+      <img src="image.jpg" alt="Sample Image">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </div>
+
+3. Demonstrate how to clear floats using:
+    a) The clear property on an element.
+    b) The clearfix hack (using a pseudo-element).
+
+4. Why is it important to clear floats? What happens if you don't?
+
+5. Research and list two modern alternatives to using float for layout in CSS.

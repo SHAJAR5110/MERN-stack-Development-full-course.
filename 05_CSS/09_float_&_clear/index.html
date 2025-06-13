@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float & Clear</title>
+    <style>
+    .container {
+        width: 600px;
+        margin-bottom: 40px;
+        border: 1px solid #ccc;
+        padding: 16px;
+        overflow: hidden;
+        background: #f9f9f9;
+    }
+    .box {
+        width: 120px;
+        height: 120px;
+        background: #4caf50;
+        color: #fff;
+        text-align: center;
+        line-height: 120px;
+        float: left;
+        margin-right: 20px;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    .text {
+        font-size: 1em;
+        color: #333;
+    }
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    </style>
+</head>
+<body>
+
+    <h2>Float Example</h2>
+    <div class="container">
+        <div class="box">Float Left</div>
+        <div class="text">
+            This text wraps around the floated box. The green box is floated to the left, so the text flows around it.
+        </div>
+    </div>
+
+    <h2>Clear Example</h2>
+    <div class="container">
+        <div class="box">Float Left</div>
+        <div class="text">
+            This text wraps around the floated box.<br>
+            <span style="display:block; clear:left; font-weight:bold; color:#2196f3; margin-top:16px;">
+                This line uses <code>clear:left</code> and starts below the floated box.
+            </span>
+        </div>
+    </div>
+</body>
+</html>
