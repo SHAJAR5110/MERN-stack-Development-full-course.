@@ -1,0 +1,93 @@
+
+ Assignment Overview
+Create a modern loading spinner using only HTML and CSS. This assignment will test your understanding of CSS animations, transforms, and keyframes.
+
+ Task Description
+You need to create a loading spinner that consists of **4 colored dots** arranged in a circle. Each dot should animate with a delay, creating a wave-like loading effect that rotates around the circle.
+-------------------------------------------
+Requirements
+-------------------------------------------
+
+### Visual Requirements:
+- **4 circular dots** positioned in a circular pattern
+- Each dot should be **20px in diameter**
+- Use these colors for the dots (in order):
+  - Dot 1: `#ff6b6b` (red)
+  - Dot 2: `#4ecdc4` (teal)
+  - Dot 3: `#45b7d1` (blue)
+  - Dot 4: `#96ceb4` (green)
+- The dots should be positioned at 12, 3, 6, and 9 o'clock positions
+- Container should be **100px x 100px**
+
+### Animation Requirements:
+- Each dot should **scale up and down** (from scale 1 to scale 1.5 and back)
+- Animation duration: **1.2 seconds**
+- Each dot should start animating with a **0.3 second delay** after the previous one
+- The animation should **repeat infinitely**
+- Use **ease-in-out** timing function for smooth animation
+
+### Technical Requirements:
+- Use HTML and internal CSS only
+- Must use `@keyframes` for the animation
+- Use `transform: scale()` for the scaling effect
+- Use `animation-delay` to create the wave effect
+- Center the entire spinner on the page
+- Add a subtle background color to make it look professional
+
+## Starter Code Structure
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Spinner</title>
+    <style>
+        /* Your CSS goes here */
+    </style>
+</head>
+<body>
+    <div class="spinner">
+        <div class="dot dot1"></div>
+        <div class="dot dot2"></div>
+        <div class="dot dot3"></div>
+        <div class="dot dot4"></div>
+    </div>
+</body>
+</html>
+
+
+## Hints to Get You Started:
+
+1. **Positioning the dots**: Use `position: absolute` and calculate positions using `top` and `left` properties. For a 100px container:
+   - Top dot: `top: 0, left: 40px`
+   - Right dot: `top: 40px, left: 80px`
+   - Bottom dot: `top: 80px, left: 40px`
+   - Left dot: `top: 40px, left: 0`
+
+2. **Creating the scale animation**: Your keyframes should look something like:
+   ```css
+   @keyframes pulse {
+       0%, 100% { transform: scale(1); }
+       50% { transform: scale(1.5); }
+   }
+   ```
+
+3. **Animation delays**: 
+   - dot1: no delay (0s)
+   - dot2: 0.3s delay
+   - dot3: 0.6s delay
+   - dot4: 0.9s delay
+
+## Bonus Challenges (Optional):
+- Add a subtle glow effect to each dot using `box-shadow`
+- Make the spinner responsive to different screen sizes
+- Add a "Loading..." text below the spinner
+
+## Learning Objectives:
+After completing this assignment, you should understand:
+- How to create smooth CSS animations using `@keyframes`
+- How to use `animation-delay` to create sequential effects
+- How to position elements in a circular pattern
+- How to use `transform: scale()` for size animations
+- How to combine multiple CSS properties for compelling visual effects
