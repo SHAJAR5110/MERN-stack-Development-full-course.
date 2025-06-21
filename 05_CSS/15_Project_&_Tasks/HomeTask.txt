@@ -1,0 +1,43 @@
+Assignment: Car Website - HTML & CSS Only
+
+Objective:
+Create a visually appealing car website homepage using only HTML and CSS. The page should feature 3 car cards, each with an image, name, and a short description. Focus on using CSS animations, transitions, and shadows to enhance the user experience.
+
+Requirements:
+
+1. Structure:
+    - Use only HTML and CSS (no JavaScript).
+    - The homepage should display 3 car cards in a row (responsive if possible).
+    - Each card must include:
+      - A car image at the top.
+      - The car's name below the image.
+      - A short description under the name.
+
+2. Design:
+    - Each card must have a box-shadow for depth.
+    - Add hover effects to the cards (e.g., scale up, shadow intensifies, etc.).
+    - Use CSS transitions for smooth hover effects.
+    - Animate at least one element (e.g., fade-in cards on page load, image zoom on hover, etc.).
+    - Use modern, clean fonts and a pleasing color scheme.
+
+3. Animations & Transitions:
+    - Cards should animate into view when the page loads (e.g., fade-in or slide-in).
+    - On hover, cards should smoothly transition (e.g., grow in size, shadow changes).
+    - Images can have a zoom-in effect on hover.
+    - Use CSS keyframes and transition properties as needed.
+
+4. Content:
+    - Use placeholder images for cars (e.g., from Unsplash or local images).
+    - Write a unique name and a 1-2 sentence description for each car.
+
+5. File Structure:
+    - Create an `index.html` file for the homepage.
+    - Create a `styles.css` file for all CSS.
+    - Link the CSS file properly in your HTML.
+
+Tips:
+- Research CSS transitions and keyframe animations.
+- Experiment with box-shadow, border-radius, and transform properties.
+- Make sure your design is visually balanced and easy to read.
+
+Good luck! Make your car website stand out with creative animations and clean design.
