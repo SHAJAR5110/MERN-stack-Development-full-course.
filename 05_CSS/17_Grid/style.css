@@ -1,0 +1,68 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: #f7f7f7;
+        }
+        h2 {
+            margin-top: 40px;
+            color: #333;
+        }
+        .example {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        .grid1 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+        .grid1 div {
+            background: #4f8cff;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+            border-radius: 6px;
+            font-size: 1.2em;
+        }
+
+        .grid2 {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 80px 80px 80px;
+            gap: 10px;
+            grid-template-areas:
+                "header header"
+                "sidebar content"
+                "footer footer";
+        }
+        .header { grid-area: header; background: #ffb347; }
+        .sidebar { grid-area: sidebar; background: #77dd77; }
+        .content { grid-area: content; background: #aec6cf; }
+        .footer { grid-area: footer; background: #ff6961; }
+        .grid2 > div {
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            font-size: 1.1em;
+        }
+
+        .grid3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 12px;
+        }
+        .grid3 div {
+            background: #b19cd9;
+            color: #fff;
+            padding: 25px 0;
+            text-align: center;
+            border-radius: 6px;
+            font-size: 1em;
+        }
+    

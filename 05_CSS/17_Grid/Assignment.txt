@@ -1,0 +1,16 @@
+Grid CSS Practice Assignment
+
+Instructions:
+Complete the following tasks to practice your CSS Grid skills. Write your code in a separate HTML and CSS file.
+
+1. Create a container with the class "grid-container".
+2. Inside the container, add 6 child divs with the class "grid-item". Number them 1 to 6.
+3. Use CSS Grid to arrange the items in a 3-column layout.
+4. Add a gap of 20px between the grid items.
+5. Make the first grid item span 2 columns.
+6. Make the last grid item span 2 rows.
+7. Add a background color and some padding to each grid item for better visibility.
+
+Bonus:
+- Make the grid responsive so that on screens smaller than 600px, it switches to a single column layout.
+
