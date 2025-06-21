@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Transitions Showcase - 10 Examples</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Transitions Showcase</h1>
+        <p class="subtitle">Pure CSS transitions - Hover, click, and focus to see the magic!</p>
+
+        <div class="grid">
+            <!-- 1. Color Transition -->
+            <div class="transition-card">
+                <h3>1. Color Transition</h3>
+                <div class="instruction">Hover over the box</div>
+                <div class="demo-area">
+                    <div class="color-box"></div>
+                </div>
+                <div class="description">
+                    Smooth color change from red to green using <code>background-color</code> transition with <code>ease</code> timing over 0.5 seconds.
+                </div>
+            </div>
+
+            <!-- 2. Size Transition -->
+            <div class="transition-card">
+                <h3>2. Size Transition</h3>
+                <div class="instruction">Hover over the box</div>
+                <div class="demo-area">
+                    <div class="size-box"></div>
+                </div>
+                <div class="description">
+                    Element grows from 60x60px to 120x120px using <code>width</code> and <code>height</code> transitions with 0.4s duration.
+                </div>
+            </div>
+
+            <!-- 3. Opacity Transition -->
+            <div class="transition-card">
+                <h3>3. Opacity Transition</h3>
+                <div class="instruction">Hover over the circle</div>
+                <div class="demo-area">
+                    <div class="opacity-box"></div>
+                </div>
+                <div class="description">
+                    Fade effect using <code>opacity</code> transition from fully visible to nearly transparent over 0.6 seconds.
+                </div>
+            </div>
+
+            <!-- 4. Border Radius Transition -->
+            <div class="transition-card">
+                <h3>4. Border Radius Transition</h3>
+                <div class="instruction">Hover over the shape</div>
+                <div class="demo-area">
+                    <div class="border-box"></div>
+                </div>
+                <div class="description">
+                    Shape morphing from square to circle using <code>border-radius</code> transition with 0.5s ease timing.
+                </div>
+            </div>
+
+            <!-- 5. Transform Scale -->
+            <div class="transition-card">
+                <h3>5. Scale Transform</h3>
+                <div class="instruction">Hover over the box</div>
+                <div class="demo-area">
+                    <div class="scale-box"></div>
+                </div>
+                <div class="description">
+                    Size scaling using <code>transform: scale()</code> which is more performant than changing width/height directly.
+                </div>
+            </div>
+
+            <!-- 6. Transform Rotate -->
+            <div class="transition-card">
+                <h3>6. Rotation Transform</h3>
+                <div class="instruction">Hover over the box</div>
+                <div class="demo-area">
+                    <div class="rotate-box"></div>
+                </div>
+                <div class="description">
+                    45-degree rotation using <code>transform: rotate()</code> with smooth 0.4s transition animation.
+                </div>
+            </div>
+
+            <!-- 7. Multiple Properties -->
+            <div class="transition-card">
+                <h3>7. Multiple Properties</h3>
+                <div class="instruction">Hover over the element</div>
+                <div class="demo-area">
+                    <div class="multi-box"></div>
+                </div>
+                <div class="description">
+                    Combines color, scale, rotation, and border-radius changes using <code>transition: all</code> shorthand property.
+                </div>
+            </div>
+
+            <!-- 8. Box Shadow Transition -->
+            <div class="transition-card">
+                <h3>8. Shadow Effect</h3>
+                <div class="instruction">Hover over the box</div>
+                <div class="demo-area">
+                    <div class="shadow-box"></div>
+                </div>
+                <div class="description">
+                    Elevation effect using <code>box-shadow</code> transition to create depth and hover feedback.
+                </div>
+            </div>
+
+            <!-- 9. Text & Button Transitions -->
+            <div class="transition-card">
+                <h3>9. Interactive Button</h3>
+                <div class="instruction">Hover over the button</div>
+                <div class="demo-area">
+                    <div class="text-element">Hover Me!</div>
+                </div>
+                <div class="description">
+                    Text styling changes including color, background, border, and position using multiple transition properties.
+                </div>
+            </div>
+
+            <!-- 10. Complex Button -->
+            <div class="transition-card">
+                <h3>10. Advanced Button</h3>
+                <div class="instruction">Hover and click the button</div>
+                <div class="demo-area">
+                    <button class="complex-button">Click Me</button>
+                </div>
+                <div class="description">
+                    Professional button with gradient background, elevation, letter-spacing, and active states using multiple transitions.
+                </div>
+            </div>
+
+            <!-- Input Focus Transition -->
+            <div class="transition-card">
+                <h3>Bonus: Input Focus</h3>
+                <div class="instruction">Click in the input field</div>
+                <div class="demo-area">
+                    <input type="text" class="focus-input" placeholder="Focus me...">
+                </div>
+                <div class="description">
+                    Form input with focus transitions including border color, background, scale, and glow effect using <code>:focus</code> pseudo-class.
+                </div>
+            </div>
+
+            <!-- Timing Functions Demo -->
+            <div class="transition-card">
+                <h3>Bonus: Timing Functions</h3>
+                <div class="instruction">Hover over this area to see different timing functions</div>
+                <div class="demo-area">
+                    <div class="timing-demo">
+                        <div class="timing-box timing-ease" data-timing="ease"></div>
+                        <div class="timing-box timing-linear" data-timing="linear"></div>
+                        <div class="timing-box timing-ease-in" data-timing="ease-in"></div>
+                        <div class="timing-box timing-ease-out" data-timing="ease-out"></div>
+                        <div class="timing-box timing-ease-in-out" data-timing="ease-in-out"></div>
+                    </div>
+                </div>
+                <div class="description">
+                    Compare different timing functions: ease, linear, ease-in, ease-out, and ease-in-out to understand their speed curves.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hover-instruction">
+        💡 Hover, focus, and interact with elements to see transitions in action!
+    </div>
+</body>
+</html>
