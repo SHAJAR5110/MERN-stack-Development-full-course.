@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extreme Complex Card</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div class="card-container">
+        <div class="complex-card">
+            <!-- Decorative SVGs -->
+            <svg class="decor-svg top-left" viewBox="0 0 200 200">
+                <defs>
+                    <radialGradient id="grad1" cx="50%" cy="50%" r="80%">
+                        <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8"/>
+                        <stop offset="100%" stop-color="#232526" stop-opacity="0"/>
+                    </radialGradient>
+                </defs>
+                <circle cx="100" cy="100" r="90" fill="url(#grad1)" />
+                <circle cx="60" cy="60" r="30" fill="#4facfe" opacity="0.3"/>
+            </svg>
+            <svg class="decor-svg bottom-right" viewBox="0 0 200 200">
+                <defs>
+                    <radialGradient id="grad2" cx="50%" cy="50%" r="80%">
+                        <stop offset="0%" stop-color="#4facfe" stop-opacity="0.7"/>
+                        <stop offset="100%" stop-color="#232526" stop-opacity="0"/>
+                    </radialGradient>
+                </defs>
+                <ellipse cx="120" cy="120" rx="80" ry="60" fill="url(#grad2)" />
+                <circle cx="160" cy="160" r="24" fill="#00f2fe" opacity="0.2"/>
+            </svg>
+            <!-- Card Content -->
+            <div class="card-header">
+                <div class="avatar">SA</div>
+                <div class="user-info">
+                    <div class="user-name">Shajar Abbas</div>
+                    <div class="user-role">MERN & AI Dev</div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="stats-grid">
+                    <div class="stat">
+                        <span class="stat-icon">★</span>
+                        <div class="stat-value">4.9</div>
+                        <div class="stat-label">Rating</div>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-icon">⚡</span>
+                        <div class="stat-value">1.2K</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-icon">👥</span>
+                        <div class="stat-value">8.5K</div>
+                        <div class="stat-label">Followers</div>
+                    </div>
+                </div>
+                <div class="card-description">
+                    I am a passionate MERN Stack and Agentic Ai Developer with expertise in building dynamic, user-friendly web applications. Proficient in MongoDB, Express.js, React.js, and Node.js, I specialize in creating full-stack solutions.
+                </div>
+            </div>
+            <div class="card-footer">
+                <button class="action-btn">Contact</button>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="Twitter">🐦</a>
+                    <a href="#" class="social-link" title="Dribbble">🏀</a>
+                    <a href="#" class="social-link" title="LinkedIn">💼</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
