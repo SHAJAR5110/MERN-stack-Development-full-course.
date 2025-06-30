@@ -1,5 +1,6 @@
 # Variables and Data Types in JavaScript
 
+
 ## Variables
 
 Variables are containers for storing data values. In JavaScript, you can declare variables using `var`, `let`, or `const`.
