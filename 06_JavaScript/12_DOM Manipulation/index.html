@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Manipulation - CSS Examples</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            color: red;
+        }
+        .large-text {
+            font-size: 2em;
+        }
+        .bordered {
+            border: 2px solid blue;
+            padding: 10px;
+        }
+        .hidden {
+            display: none;
+        }
+        .rotated {
+            transform: rotate(10deg);
+            transition: transform 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="example1">Example 1: Add a class</h2>
+    <p id="example2">Example 2: Remove a class</p>
+    <div id="example3" class="bordered">Example 3: Toggle a class</div>
+    <span id="example4">Example 4: Change style property</span>
+    <button id="example5">Example 5: Hide element</button>
+
+    <script>
+        // 1. Add a class
+        document.getElementById('example1').classList.add('highlight');
+
+        // 2. Remove a class
+        document.getElementById('example2').classList.add('large-text');
+        document.getElementById('example2').classList.remove('large-text');
+
+        // 3. Toggle a class
+        document.getElementById('example3').addEventListener('click', function() {
+            this.classList.toggle('rotated');
+        });
+
+        // 4. Change a style property
+        document.getElementById('example4').style.color = 'green';
+
+        // 5. Hide an element
+        document.getElementById('example5').addEventListener('click', function() {
+            this.classList.add('hidden');
+        });
+    </script>
+</body>
+</html>
