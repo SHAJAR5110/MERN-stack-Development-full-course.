@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoLux - Premium Car Dealership</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-car"></i>
+                <span>AutoLux</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-particles"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Luxury Cars</span>
+                <span class="title-line">Redefined</span>
+            </h1>
+            <p class="hero-subtitle">Experience the pinnacle of automotive excellence</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Explore Collection</button>
+                <button class="btn btn-secondary">Watch Video</button>
+            </div>
+        </div>
+        <div class="hero-car">
+            <div class="car-showcase">
+                <div class="car-glow"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Featured Cars Section -->
+    <section class="featured-cars">
+        <div class="container">
+            <h2 class="section-title">Featured Collection</h2>
+            <div class="cars-grid">
+                <div class="car-card" data-car="lamborghini">
+                    <div class="card-image">
+                        <div class="card-overlay">
+                            <h3>Lamborghini Huracán</h3>
+                            <p>Starting at $248,295</p>
+                            <button class="card-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h4>Lamborghini Huracán</h4>
+                        <div class="card-stats">
+                            <span><i class="fas fa-tachometer-alt"></i> 630 HP</span>
+                            <span><i class="fas fa-clock"></i> 0-60 in 2.9s</span>
+                        </div>
+                        <div class="card-price">$248,295</div>
+                    </div>
+                </div>
+
+                <div class="car-card" data-car="ferrari">
+                    <div class="card-image">
+                        <div class="card-overlay">
+                            <h3>Ferrari F8 Tributo</h3>
+                            <p>Starting at $280,000</p>
+                            <button class="card-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h4>Ferrari F8 Tributo</h4>
+                        <div class="card-stats">
+                            <span><i class="fas fa-tachometer-alt"></i> 710 HP</span>
+                            <span><i class="fas fa-clock"></i> 0-60 in 2.9s</span>
+                        </div>
+                        <div class="card-price">$280,000</div>
+                    </div>
+                </div>
+
+                <div class="car-card" data-car="porsche">
+                    <div class="card-image">
+                        <div class="card-overlay">
+                            <h3>Porsche 911 Turbo S</h3>
+                            <p>Starting at $207,000</p>
+                            <button class="card-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h4>Porsche 911 Turbo S</h4>
+                        <div class="card-stats">
+                            <span><i class="fas fa-tachometer-alt"></i> 640 HP</span>
+                            <span><i class="fas fa-clock"></i> 0-60 in 2.6s</span>
+                        </div>
+                        <div class="card-price">$207,000</div>
+                    </div>
+                </div>
+
+                <div class="car-card" data-car="mclaren">
+                    <div class="card-image">
+                        <div class="card-overlay">
+                            <h3>McLaren 720S</h3>
+                            <p>Starting at $299,000</p>
+                            <button class="card-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h4>McLaren 720S</h4>
+                        <div class="card-stats">
+                            <span><i class="fas fa-tachometer-alt"></i> 710 HP</span>
+                            <span><i class="fas fa-clock"></i> 0-60 in 2.8s</span>
+                        </div>
+                        <div class="card-price">$299,000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Car Gallery</h2>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+                <button class="filter-btn" data-filter="luxury">Luxury</button>
+                <button class="filter-btn" data-filter="electric">Electric</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="sports">
+                    <div class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Aston Martin DB11</h3>
+                            <p>British Grand Tourer</p>
+                            <div class="gallery-buttons">
+                                <button class="gallery-btn"><i class="fas fa-eye"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="luxury">
+                    <div class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Rolls-Royce Phantom</h3>
+                            <p>Ultimate Luxury</p>
+                            <div class="gallery-buttons">
+                                <button class="gallery-btn"><i class="fas fa-eye"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="electric">
+                    <div class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Tesla Model S Plaid</h3>
+                            <p>Electric Performance</p>
+                            <div class="gallery-buttons">
+                                <button class="gallery-btn"><i class="fas fa-eye"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="sports">
+                    <div class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Bugatti Chiron</h3>
+                            <p>Hypercar Legend</p>
+                            <div class="gallery-buttons">
+                                <button class="gallery-btn"><i class="fas fa-eye"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="luxury">
+                    <div class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Bentley Continental GT</h3>
+                            <p>Grand Touring Excellence</p>
+                            <div class="gallery-buttons">
+                                <button class="gallery-btn"><i class="fas fa-eye"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="electric">
+                    <div class="gallery-image">
+                        <div class="gallery-overlay">
+                            <h3>Porsche Taycan</h3>
+                            <p>Electric Sports Car</p>
+                            <div class="gallery-buttons">
+                                <button class="gallery-btn"><i class="fas fa-eye"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>123 Luxury Drive, Premium City, PC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>info@autolux.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" name="interest">
+                                <option value="">Select Your Interest</option>
+                                <option value="sports">Sports Cars</option>
+                                <option value="luxury">Luxury Cars</option>
+                                <option value="electric">Electric Cars</option>
+                                <option value="classic">Classic Cars</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AutoLux</h3>
+                    <p>Your premier destination for luxury and performance vehicles.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Car Sales</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Maintenance</a></li>
+                        <li><a href="#">Trade-In</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@autolux.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 9AM-7PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AutoLux. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Car Detail Modal -->
+    <div class="modal" id="carModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalCarImage" src="" alt="Car">
+                </div>
+                <div class="modal-details">
+                    <h2 id="modalCarTitle"></h2>
+                    <div class="modal-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Engine:</span>
+                            <span class="spec-value" id="modalEngine"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Horsepower:</span>
+                            <span class="spec-value" id="modalHorsepower"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">0-60 mph:</span>
+                            <span class="spec-value" id="modalAcceleration"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Top Speed:</span>
+                            <span class="spec-value" id="modalTopSpeed"></span>
+                        </div>
+                    </div>
+                    <div class="modal-price" id="modalPrice"></div>
+                    <div class="modal-buttons">
+                        <button class="btn btn-primary">Schedule Test Drive</button>
+                        <button class="btn btn-secondary">Get Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
