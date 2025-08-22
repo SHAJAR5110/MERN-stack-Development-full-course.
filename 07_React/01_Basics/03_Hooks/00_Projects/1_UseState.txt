@@ -1,0 +1,31 @@
+Assignment: Learning useState Hook in React
+
+Objective:
+Understand how to use the useState hook to manage state in a functional React component.
+
+Instructions:
+1. Create a new React component called Counter.
+2. Import the useState hook from 'react'.
+3. Inside the Counter component, use useState to create a state variable called count, initialized to 0.
+4. Render the current value of count in the component.
+5. Add a button that, when clicked, increases the count by 1.
+6. Add another button that decreases the count by 1.
+7. Test your component to ensure the count updates correctly when the buttons are clicked.
+
+Example Structure:
+import React, { useState } from 'react';
+
+function Counter() {
+    // Your useState code here
+
+    return (
+        // Your JSX code here
+    );
+}
+
+export default Counter;
+
+Tips:
+- useState returns an array with two elements: the current state value and a function to update it.
+- You can call the update function with the new value to change the state.
+

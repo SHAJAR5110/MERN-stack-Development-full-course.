@@ -1,0 +1,41 @@
+Assignment: Practice useEffect Hook in React
+
+Task 1:
+- Create a functional component called Counter.
+- Add a state variable "count" initialized to 0.
+- Display the count value.
+- Add a button to increment the count.
+- Use useEffect to log "Count changed" in the console every time the count changes.
+
+Task 2:
+- Create a functional component called Timer.
+- Add a state variable "seconds" initialized to 0.
+- Use useEffect to start a timer that increments "seconds" every second.
+- Display the seconds value.
+- Make sure to clean up the timer when the component unmounts.
+
+Task 3:
+- Create a functional component called DataFetcher.
+- Add a state variable "data" initialized to null.
+- Use useEffect to fetch data from "https://jsonplaceholder.typicode.com/posts/1" when the component mounts.
+- Display the fetched data title.
+- Show "Loading..." while data is being fetched.
+
+Task 4:
+- Create a functional component called WindowWidth.
+- Add a state variable "width" initialized to window.innerWidth.
+- Use useEffect to update "width" whenever the window is resized.
+- Display the current window width.
+- Clean up the event listener when the component unmounts.
+
+Task 5:
+- Create a functional component called ToggleMessage.
+- Add a state variable "show" initialized to true.
+- Add a button to toggle "show".
+- Use useEffect to log "Message is shown" or "Message is hidden" whenever "show" changes.
+- Display a message only when "show" is true.
+
+Instructions:
+- Complete each task in a separate file or component.
+- Use only functional components and the useEffect hook.
+- Focus on writing clean and readable code.

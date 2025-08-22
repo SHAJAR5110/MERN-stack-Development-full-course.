@@ -1,0 +1,35 @@
+Assignment: Practice useMemo Hook in React
+
+Task 1: Basic useMemo Usage
+- Create a React component called Counter.
+- Add a state variable "count" using useState.
+- Add a button to increment the count.
+- Use useMemo to calculate and display whether the count is even or odd.
+
+Task 2: Expensive Calculation Optimization
+- Create a component called ExpensiveCalculation.
+- Add a state variable "number" using useState.
+- Add an input to change the number.
+- Use useMemo to perform a slow calculation (e.g., factorial) based on "number".
+- Display the result.
+
+Task 3: useMemo with Array Filtering
+- Create a component called UserList.
+- Add a state variable "search" for filtering users.
+- Use a hardcoded array of user objects.
+- Use useMemo to filter users based on the search input.
+- Display the filtered list.
+
+Task 4: useMemo with Props
+- Create a parent component that passes a prop to a child component.
+- In the child component, use useMemo to compute a derived value from the prop.
+- Display the derived value.
+
+Task 5: useMemo Dependency Array
+- Create a component that uses useMemo with multiple dependencies.
+- Change the dependencies and observe how useMemo recalculates the value.
+
+Instructions:
+- Complete each task in a separate React component.
+- Focus on using useMemo correctly for performance optimization.
+- Test each component to see how useMemo works with different dependencies.

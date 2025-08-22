@@ -1,0 +1,29 @@
+Assignment: React useContext & useEffect Practice
+
+1. Create a new React app (if not already done).
+
+2. In the `src` folder, create a new file called `ThemeContext.js`.
+    - Create a context called `ThemeContext`.
+    - Export the context.
+
+3. In `App.js`:
+    - Import `ThemeContext`.
+    - Create a state called `theme` (default value: "light").
+    - Wrap your main component tree with `ThemeContext.Provider`.
+    - Pass the `theme` and a function to change the theme as the context value.
+
+4. Create a new component called `ThemeSwitcher.js`.
+    - Use `useContext` to get the current theme and the function to change it.
+    - Display the current theme.
+    - Add a button to toggle between "light" and "dark" themes.
+
+5. In `ThemeSwitcher.js`, use `useEffect`:
+    - Whenever the theme changes, log "Theme changed to: [theme]" in the console.
+
+6. Render `ThemeSwitcher` inside `App.js`.
+
+7. Test your app:
+    - Clicking the button should toggle the theme and log the change in the console.
+
+Extra:
+- Style the app so the background color changes based on the theme.

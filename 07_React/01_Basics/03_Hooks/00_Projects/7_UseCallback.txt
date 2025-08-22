@@ -1,0 +1,34 @@
+Assignment: Practice useCallback Hook in React
+
+Task 1: Basic useCallback Example
+- Create a React component called Counter.
+- Add a state variable "count" using useState.
+- Add a button to increment the count.
+- Use useCallback to memoize the increment function.
+- Pass the increment function to the button's onClick.
+
+Task 2: useCallback with Child Component
+- Create a parent component called Parent.
+- Add a state variable "number" using useState.
+- Create a child component called Child that receives a function prop.
+- Use useCallback in Parent to memoize a function that logs the number.
+- Pass the memoized function to Child as a prop.
+- In Child, add a button to call the function prop.
+
+Task 3: useCallback with Dependencies
+- Create a component called Calculator.
+- Add two state variables "a" and "b" using useState.
+- Use useCallback to memoize a function that adds "a" and "b".
+- Display the result and add buttons to update "a" and "b".
+
+Task 4: useCallback vs Normal Function
+- Create a component called Demo.
+- Add a state variable "value" using useState.
+- Create two functions: one memoized with useCallback and one normal.
+- Log to the console when each function is re-created.
+- Add buttons to trigger both functions and observe the console logs.
+
+Instructions:
+- Complete each task in a separate file or component.
+- Focus on using useCallback correctly in each scenario.
+- Test your components to see how useCallback affects function re-creation.

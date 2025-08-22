@@ -1,0 +1,22 @@
+Assignment: Practice useNavigation Hook in React
+
+1. Create a new React app using Create React App.
+
+2. Install react-router-dom:
+    npm install react-router-dom
+
+3. Set up basic routing in your App.js file with at least three pages: Home, About, and Contact.
+
+4. In one of your components (e.g., Home.js), import and use the useNavigation hook from react-router-dom.
+
+5. Add a button in the Home component. When clicked, use the navigation hook to programmatically navigate to the About page.
+
+6. Add another button in the About component to navigate to the Contact page using the navigation hook.
+
+7. Add a button in the Contact component to navigate back to the Home page using the navigation hook.
+
+8. Test your app to ensure all navigation works as expected.
+
+9. Refactor your code to use the navigation hook in other places if needed.
+
+10. Add comments in your code to explain where and how you are using the navigation hook.

@@ -1,0 +1,36 @@
+Assignment: Practice useRef Hook in React
+
+Task 1: Basic useRef Usage
+- Create a functional component named Counter.
+- Use the useRef hook to create a ref for a button element.
+- Render a button and assign the ref to it.
+- On button click, log the current button element to the console.
+
+Task 2: Accessing DOM Elements
+- Create a functional component named InputFocus.
+- Use useRef to create a ref for an input element.
+- Render an input and a button.
+- On button click, set focus to the input using the ref.
+
+Task 3: Storing Mutable Values
+- Create a functional component named Timer.
+- Use useRef to store a timer ID (from setInterval).
+- Render a button to start the timer and another to stop it.
+- Display the timer value in the component.
+
+Task 4: Compare useRef and useState
+- Create a functional component named RefVsState.
+- Use useRef and useState to store a counter value.
+- Render two buttons: one to increment the useRef value, one to increment the useState value.
+- Display both values and observe the difference in re-rendering.
+
+Task 5: useRef in Form Handling
+- Create a functional component named FormRef.
+- Use useRef to access the value of an input field without using state.
+- Render an input and a submit button.
+- On submit, log the input value using the ref.
+
+Instructions:
+- Create a new React component for each task.
+- Use only functional components and the useRef hook.
+- Test each component to see how useRef works in different scenarios.
